@@ -10,25 +10,24 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Vedansh",
-  logo_name: "vedansh.v()",
+  title2: "Waqas",
+  logo_name: "diode02",
   // nickname: "harry / picleric",
-  full_name: "Vedansh Vijaywargiya",
-  subTitle: "Full Stack Developer, Open Source Contributor, Life Long Learner.",
-  resumeLink:
-    "https://drive.google.com/file/d/1mcpvXVvrc8qcVbIzy2UhzBhijUg1Wr7z/view?usp=drive_link",
-  mail: "mailto:im.vedanshvijay2002@gmail.com",
+  full_name: "Muhammad Waqas",
+  subTitle:
+    "Full Stack Developer, Software Engineer, Open Source Enthusiast, Life Long Learner.",
+  resumeLink: "https://google.com",
+  mail: "mailto:mwaqasilyas01@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/vvHacker007/",
-  linkedin: "https://www.linkedin.com/in/vedansh-vijaywargiya/",
-  gmail: "im.vedanshvijay2002@gmail.com",
+  github: "https://github.com/diode02/",
+  linkedin: "https://www.linkedin.com/in/diode02/",
+  gmail: "qaskhan02@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/vedansh.vijaywargiya/",
-  twitter: "https://twitter.com/vedansh_v_/",
-  instagram: "https://www.instagram.com/sanecracker/",
+  facebook: "https://www.facebook.com/qaskhan02/",
+  twitter: "https://twitter.com/diode02/",
 };
 
 const skills = {
@@ -379,127 +378,127 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "SRM Institute of Science and Technology",
-      subtitle: "Bachelors in Computer Science and Engineering",
-      logo_path: "SRM_Logo.png",
-      alt_name: "SSEC",
-      duration: "2019 - 2023",
+      title: "COMSATS University Islamabad",
+      subtitle: "Bachelors of Sciences in Computer Science",
+      logo_path: "COMSATS.jpg",
+      alt_name: "COMSATS",
+      // duration: "2019 - 2023",
       descriptions: [
-        "⚡  I am a Computer Science and Engineering graduate.",
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, OS, Distributed Systems etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt during my tenure. ",
+        "⚡ I graduated with a bachelor's degree in Computer Sciences.",
+        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've leart under my Computer Science courses. ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "https://www.comsats.edu.pk/",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Google Cloud",
-      subtitle: "Google Cloud Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "Backyard Hacks 2.0",
-      logo_path: "hackathon1.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#f47e2c",
-    },
-    {
-      title: "Hackathon",
-      subtitle: "HyperHacks",
-      logo_path: "hackathon2.png",
-      // certificate_link:
-      //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
     // {
-    //   title: "A300: Atlas Security",
-    //   subtitle: "MongoDB University",
-    //   logo_path: "mongo.png",
+    //   title: "Google Cloud",
+    //   subtitle: "Google Cloud Training",
+    //   logo_path: "google_logo.png",
     //   certificate_link:
-    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+    //     "https://drive.google.com/file/d/1r0hYt8Pp0N0u_4Tg-poMF1Qv3LkoKVAP/view",
     //   alt_name: "MongoDB University",
-    //   // color_code: "#F6B808",
-    //   color_code: "#47A048",
+    //   // color_code: "#2AAFED",
+    //   color_code: "#2AAFED",
     // },
-    {
-      title: "Contributor's Hack",
-      subtitle: "Hakin Codes",
-      logo_path: "HakinCodes.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
-      alt_name: "Opensource Event",
-      color_code: "#fefd7b",
-    },
     // {
-    //   title: "MLH Local Hack Day: Build",
-    //   subtitle: "Major League Hacking",
-    //   logo_path: "mlh-logo.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-    //   alt_name: "Google",
-    //   color_code: "#fe0037",
+    //   title: "Hackathon",
+    //   subtitle: "Backyard Hacks 2.0",
+    //   logo_path: "hackathon1.png",
+    //   // certificate_link:
+    //   //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+    //   alt_name: "hackathon",
+    //   color_code: "#f47e2c",
     // },
-    {
-      title: "Olympiad",
-      subtitle: "Ramanujan Mathematics Olympiad",
-      logo_path: "Olympiad.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
-    {
-      title: "Competitive Programming",
-      subtitle: "Reply Challenges",
-      logo_path: "Reply.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1KamrXJPTrF3zfMuEerbSnFUjOkt-agKT/view",
-      alt_name: "Reply",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Competitive Programming",
-      subtitle: "Google Hash Code",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
-      alt_name: "Reply",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Training",
-      subtitle: "30 Days of Open Source",
-      logo_path: "CFC.jfif",
-      certificate_link:
-        "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#a60000",
-    },
-    {
-      title: "Training",
-      subtitle: "Git Learning",
-      logo_path: "Progate.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
-      alt_name: "Reply",
-      color_code: "#88e7ce",
-    },
+    // {
+    //   title: "Hackathon",
+    //   subtitle: "HyperHacks",
+    //   logo_path: "hackathon2.png",
+    //   // certificate_link:
+    //   //   "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
+    //   alt_name: "hackathon",
+    //   color_code: "#E2405F",
+    // },
+    // // {
+    // //   title: "A300: Atlas Security",
+    // //   subtitle: "MongoDB University",
+    // //   logo_path: "mongo.png",
+    // //   certificate_link:
+    // //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
+    // //   alt_name: "MongoDB University",
+    // //   // color_code: "#F6B808",
+    // //   color_code: "#47A048",
+    // // },
+    // {
+    //   title: "Contributor's Hack",
+    //   subtitle: "Hakin Codes",
+    //   logo_path: "HakinCodes.jfif",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1xvyy1M05lQN-s2VKw_Qvz6E7rPwrK2qm/view?usp=sharing",
+    //   alt_name: "Opensource Event",
+    //   color_code: "#fefd7b",
+    // },
+    // // {
+    // //   title: "MLH Local Hack Day: Build",
+    // //   subtitle: "Major League Hacking",
+    // //   logo_path: "mlh-logo.svg",
+    // //   certificate_link:
+    // //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
+    // //   alt_name: "Google",
+    // //   color_code: "#fe0037",
+    // // },
+    // {
+    //   title: "Olympiad",
+    //   subtitle: "Ramanujan Mathematics Olympiad",
+    //   logo_path: "Olympiad.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
+    //   alt_name: "Postman",
+    //   // color_code: "#f36c3d",
+    //   color_code: "#fffbf3",
+    // },
+    // {
+    //   title: "Competitive Programming",
+    //   subtitle: "Reply Challenges",
+    //   logo_path: "Reply.jfif",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1KamrXJPTrF3zfMuEerbSnFUjOkt-agKT/view",
+    //   alt_name: "Reply",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Competitive Programming",
+    //   subtitle: "Google Hash Code",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
+    //   alt_name: "Reply",
+    //   color_code: "#2AAFED",
+    // },
+    // {
+    //   title: "Training",
+    //   subtitle: "30 Days of Open Source",
+    //   logo_path: "CFC.jfif",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1SAKHjKisJIY3-FRZQGKLusdsGDusXAjX/view",
+    //   alt_name: "Postman",
+    //   // color_code: "#f36c3d",
+    //   color_code: "#a60000",
+    // },
+    // {
+    //   title: "Training",
+    //   subtitle: "Git Learning",
+    //   logo_path: "Progate.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/1sD6GS8f2Fh5MHMWlf5DhXoMhu4mykW-f/view",
+    //   alt_name: "Reply",
+    //   color_code: "#88e7ce",
+    // },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -517,167 +516,95 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I am working as a full time software developer with an experience of about 1 year and have done 5+ internships during my tenure in college. I've done projects both as a solo developer and in a team. I like contributing to opensource projects in my free time.",
+    "I've completed one internship. After that I worked as a Software Engineer in a comopany for 1 year and now I'm working as a Freelancer and actively handling different projects",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Associate Software Engineer",
-          company: "Tekion Corp.",
-          company_url: "https://tekion.com/",
-          logo_path: "Tekion_logo.jpeg",
-          duration: "Jul 2023 - Present",
-          location: "On-Site",
-          description: `Achieved cost savings for the company by optimizing server performance, including reducing server load and improving latency by merging Elastic Search Indices. Led a 2-person team in the development and maintenance of a reporting tool microservice with a codebase of approximately 6000 lines. Played a key role in developing and maintaining pivotal client-centric services such as customer management, compliance, credit-limit and vendor management. This involved navigating dependencies across multiple teams and ensuring seamless integration of services. Increased test code coverage of existing services to 85% and consistently delivered all pull requests with 95% and above code coverage. This commitment to quality assurance helped improve the reliability and stability of the codebase.`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#00bfa5",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Associate Software Engineer Intern",
-          company: "Tekion Corp.",
-          company_url: "https://tekion.com/",
-          logo_path: "Tekion_logo.jpeg",
-          duration: "Jan 2023 - Jun 2023",
-          location: "On-Site",
-          description: `Enhanced system performance by reducing latency by 2000ms through the integration of parallelism into an existing sequential message delivery system. This improvement facilitated faster and non-blocking approvals, enhancing operational efficiency. Significantly improved development efficiency by reducing documentation time by 80% through the integration of Swagger API into 10 microservices. Recognized by the VP of the company for contributions to a security boot camp, particularly for writing secure and clean code. Actively contributed to identifying unsecured code in the codebase and refactored unclean code, improving overall code quality system efficieny and security posture.`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#00bfa5",
-        },
-        {
-          title: "Full Stack Developer Intern",
-          company: "Reczee",
-          company_url: "https://www.reczee.com/",
-          logo_path: "reczee_logo.jpeg",
-          duration: "Aug 2022 - Dec 2022",
-          location: "Remote",
-          description: `Implemented OAuth2.0 flow for Microsoft Graph API to seamlessly integrate Outlook Calendar events with the application. Strategically targeted approximately 20% of the user base by integrating the Outlook Graph API, enhancing user experience. Enabled the scheduling of online interview meetings by checking user's available slots, streamlining the interview process.`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          title: "Software Engineer",
+          company: "Devsinc",
+          company_url: "https://www.devsinc.com/",
+          logo_path: "devsinc.png",
+          // duration: "Sept 2020 - Oct 2020",
+          location: "office",
+          description: `I worked there as a Software Engineer on multiple company projects.`,
           color: "#0071C5",
         },
-        {
-          title: "Research Intern",
-          company: "Samsung",
-          company_url: "https://www.samsung.com/",
-          logo_path: "Sasung_logo.jpeg",
-          duration: "Feb 2022 - Aug 2022",
-          location: "Remote",
-          description: `Conducted in-depth research on real-time video processing techniques, exploring multiple approaches to enhance efficiency. Designed and implemented workflow architectures to seamlessly integrate models into real-time mobile applications, improving overall performance. Demonstrated strong problem-solving skills by optimizing solutions for real-time video processing challenges.`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#000000",
-        },
-        {
-          title: "Software Developer Intern",
-          company: "FreeCAD",
-          company_url: "https://www.freecad.org/",
-          logo_path: "FreeCAD-logo.svg.png",
-          duration: "Dec 2021 - Feb 2022",
-          location: "Remote",
-          description: `Developed 3-D CAD features for a manufacturing company, facilitating the design and assembly of tools for machines. Applied object-oriented design principles to enhance software functionality and scalability. Successfully refactored legacy C++ codebase to Python, improving code maintainability and performance.`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Machine Learning Intern",
-          company: "Technocolabs",
-          company_url: "https://technocolabs.com/",
-          logo_path: "Technocolabs.jfif",
-          duration: "Sept 2020 - Oct 2020",
-          location: "Remote",
-          description: `Analysed the changes before and after people started using sanitizers using the covid-19 dataset. Built and analysed several predictive models for defaulting user’s credit card and deployed it on a full-stack website using Flask. Made a predictive model for Blood Donation for Future Expectancy and deployed it on a fully-fledged website. Increased productivity and problem-solving techniques by 20%.`,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Data Science Intern",
-          company: "The Sparks Foundation",
-          company_url: "hhttps://thesparksfoundation.info/",
-          logo_path: "TSF.png",
-          duration: "Aug 2020 - Sept 2020",
-          location: "Remote",
-          description: `Developed predictive models and deployed it on a full-stack website using Flask. Used Boxplot, Heatmap and Confusion Matrix for data visualization. Deep analysis on the superstore dataset using Bar Plots, Bar Charts, Pair Plots and Joint Plots for specific regions.`,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
-        },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "R&D Member",
-          company: "Webarch Club",
-          company_url: "https://www.webarchsrm.com/",
-          logo_path: "Webarch.jfif",
-          duration: "Mar 2020 - Nov 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Leader",
-          company: "Code For Cause",
-          company_url: "https://www.codecau.se/",
-          logo_path: "CFC.jfif",
-          duration: "Nov 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
-          color: "#a60000",
-        },
-        {
-          title: "Machine Learning - Research Member",
-          company: "Next Tech Lab",
-          company_url: "https://nextech.io/",
-          logo_path: "NTL.jfif",
-          duration: "Oct 2020 - Present",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects, intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
-          color: "#62cff0",
-        },
-        {
-          title: "Campus Ambassador",
-          company: "Bagcampus",
-          company_url: "https://bagcampus.in/",
-          logo_path: "Bagcampus.jpg",
-          duration: "Dec 2020 - May 2021",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Spread Awareness of new Technologies, Companies and new Opportunities to Students and Grow Bagcampus Community.",
-          color: "#0059c9",
-        },
-        {
-          title: "Volunteer",
-          company: "Google Crowdsource",
-          company_url: "https://crowdsource.google.com/",
-          logo_path: "GCS.jfif",
-          duration: "Sept 2020 - Present",
-          location: "Remote",
-          description:
-            "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
-          color: "#ffffff",
-        },
-        {
-          title: "Student Volunteer",
-          company: "National Service Scheme",
-          company_url: "https://nss.gov.in/",
-          logo_path: "NSS.jfif",
-          duration: "Dec 2019 - May 2020",
-          location: "SRM IST Kattankulathur",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#282b6c",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "R&D Member",
+    //       company: "Webarch Club",
+    //       company_url: "https://www.webarchsrm.com/",
+    //       logo_path: "Webarch.jfif",
+    //       duration: "Mar 2020 - Nov 2020",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Member responsibilities were to help students in project planning, review issues and pull requests, ensure smooth progress and help juniors out in their difficulties.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Campus Leader",
+    //       company: "Code For Cause",
+    //       company_url: "https://www.codecau.se/",
+    //       logo_path: "CFC.jfif",
+    //       duration: "Nov 2020 - Present",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Held numerous workshops and distributed learning content for freshers. Contributed to development of the causefolio website displaying the information about the Code for Cause Community.",
+    //       color: "#a60000",
+    //     },
+    //     {
+    //       title: "Machine Learning - Research associate",
+    //       company: "Next Tech Lab",
+    //       company_url: "https://nextech.io/",
+    //       logo_path: "NTL.jfif",
+    //       duration: "Oct 2020 - Present",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Associate responsibilities were to build fast and efficient machine learning models, have talks on research topics related to computer vision and deep learning. Build team projects and intract with fellow members and ensure smooth progress and help juniors out in their difficulties.",
+    //       color: "#62cff0",
+    //     },
+    //     {
+    //       title: "Campus Ambassador",
+    //       company: "Bagcampus",
+    //       company_url: "https://bagcampus.in/",
+    //       logo_path: "Bagcampus.jpg",
+    //       duration: "Dec 2020 - May 2021",
+    //       location: "Remote",
+    //       description:
+    //         "Spread Awareness of new Technologies and Companies and new Opportunities to Students and Grow Bagcampus Community.",
+    //       color: "#0059c9",
+    //     },
+    //     {
+    //       title: "Volunteer",
+    //       company: "Google Crowdsource",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "GCS.jfif",
+    //       duration: "Sept 2020 - Present",
+    //       location: "Remote",
+    //       description:
+    //         "As a member of the global Crowdsource community one can gain recognition from other Crowdsourcers and Google.",
+    //       color: "#ffffff",
+    //     },
+    //     {
+    //       title: "Student Volunteer",
+    //       company: "National Service Scheme",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "NSS.jfif",
+    //       duration: "Dec 2019 - May 2020",
+    //       location: "SRM IST Kattankulathur",
+    //       description:
+    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+    //       color: "#282b6c",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -685,7 +612,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create Backend Projects, build Python Scripts and setup Cloud Infrastructures. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, React, NextJS and GatsbyJS Projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -701,7 +628,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others.",
-    link: "https://medium.com/@vedanshvijay/",
+    link: "https://medium.com/@diode02/",
     avatar_image_path: "blogs_image.svg",
   },
 };
