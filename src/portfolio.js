@@ -857,8 +857,8 @@ const projects = {
           iconifyClass: "logos:nodejs",
         },
         {
-          name: "JWT",
-          iconifyClass: "logos:jwt-icon",
+          name: "PassportJS",
+          iconifyClass: "logos:passport",
         },
         {
           name: "MongoDB",
@@ -867,6 +867,139 @@ const projects = {
         {
           name: "Socket.io",
           iconifyClass: "cib:socket-io",
+        },
+      ],
+    },
+    {
+      id: "9",
+      name: "Pippa API Server",
+      // url: "https://workzat.com",
+      description:
+        "Built a backend for a company for getting bank transactions details of the users." +
+        " These transaction details were required for a aduit pupose.",
+      languages: [
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "ExpressJS",
+          iconifyClass: "logos:express",
+        },
+        {
+          name: "JWT",
+          iconifyClass: "logos:jwt-icon",
+        },
+        {
+          name: "Postman",
+          iconifyClass: "logos:postman-icon",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Heroku",
+          iconifyClass: "logos:heroku-icon",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "Store Backend",
+      // url: "https://workzat.com",
+      description:
+        "Provided a backend for a startup company to manage their marketplace store." +
+        " In this I covered complete user flow, managment of products and categories, " +
+        "manager roles, etc. I used MySQL as a database in this project as required by client.",
+      languages: [
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "JWT",
+          iconifyClass: "logos:jwt-icon",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos:mysql",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
+    },
+    {
+      id: "7",
+      name: "Printio",
+      // url: "https://workzat.com",
+      description:
+        "Wrote a web service which was resposible for receiving the instructions on an end point," +
+        " process those instructions and then use local printer to print out labels in a specific " +
+        "formate as instructed in input.",
+      languages: [
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "JWT",
+          iconifyClass: "logos:jwt-icon",
+        },
+      ],
+    },
+    {
+      id: "7",
+      name: "User Routines API",
+      // url: "https://workzat.com",
+      description:
+        "Built a backend for a applications for users to create their account and manage," +
+        " their daily routines, routines consists of multiple routines and can be public or private. ",
+      languages: [
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "JWT",
+          iconifyClass: "",
+        },
+      ],
+    },
+    {
+      id: "8",
+      name: "Foodlabs",
+      url: "https://foodlab-webflow.netlify.app/",
+      description:
+        "Built a web app using serverless fucntion to get job listings data from an external website," +
+        " and after some processing it was resposible for publishing those jobs listings to " +
+        " a weblow based collections using their provided APIs.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Netlify",
+          iconifyClass: "vscode-icons:file-type-netlify",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
       ],
     },
