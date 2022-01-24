@@ -2,9 +2,9 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  isSplash: false, // Change this to true if you want to use the splash screen.
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
+  googleTrackingID: "300458483",
 };
 
 //Home Page
@@ -12,7 +12,7 @@ const greeting = {
   title: "Hello 👋.",
   title2: "Waqas",
   logo_name: "diode02",
-  // nickname: "harry / picleric",
+  nickname: "diode",
   full_name: "Muhammad Waqas",
   subTitle:
     "Full Stack Developer, Software Engineer, Open Source Enthusiast, Life Long Learner.",
@@ -637,355 +637,236 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Mind Space",
-      url: "https://www.mindspace.cf/",
+      name: "Due Dilly",
+      showLink: "true",
+      url: "https://duedilly.co/",
       description:
-        "This is Blogging website where users can create blogs, follow and unfollow other users, get summarized blog reccomendation on their dashboard and have a personalised searching mechanism.",
+        "This is a marketplace for selling sports cards and grading them using advance AI." +
+        " I worked as a full stack web developer for building this website and handled everything " +
+        "from planning and development to deployment on servers.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "GatsbyJS",
+          iconifyClass: "grommet-icons:gatsbyjs",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Ant Desgin",
+          iconifyClass: "logos:ant-design",
         },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
         },
         {
-          name: "Flask",
-          iconifyClass: "cib-flask",
+          name: "Stripe",
+          iconifyClass: "cib:cc-stripe",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
         },
       ],
     },
     {
       id: "1",
-      name: "Youtube Downloader",
-      url: "https://github.com/vvHacker007/Youtube-Downloader/",
+      name: "Due Dilly Marketplace",
+      url: "https://marketplace.duedilly.co",
       description:
-        "A desktop GUI which can be used to download youtube videos and playlist with desired quality and type on desktop.",
+        "I worked on this web app to provide a platform for end users to buy and sell sports cards." +
+        " I also developed the ability for the users to open stores and list their cards on this" +
+        " marketplace. Stripe is integrated for payments.",
       languages: [
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "NextJS",
+          iconifyClass: "logos:nextjs",
+        },
+        {
+          name: "Ant Desgin",
+          iconifyClass: "logos:ant-design",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "cib:cc-stripe",
+        },
+        {
+          name: "SASS",
+          iconifyClass: "vscode-icons:file-type-sass",
         },
       ],
     },
     {
       id: "2",
-      name: "Tune In",
-      url: "https://github.com/vvHacker007/Tune-In",
+      name: "Seller Dashboard Due Dilly",
+      url: "https://seller.duedilly.co",
       description:
-        "Tune in is a collaborative music playing system where multiple guests can join a room and enjoy the song being played. Guests can pause and vote to skip the current song.",
+        "This was built for sellers to manage and add new soprts cards to sell on marketplace." +
+        " Added ability for users to also open new stores on marketplace, manage orders, etc using this dashboard.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "NextJS",
+          iconifyClass: "logos:nextjs",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Ant Desgin",
+          iconifyClass: "logos:ant-design",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos:redux",
         },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "cib:cc-stripe",
+        },
+        {
+          name: "SASS",
+          iconifyClass: "vscode-icons:file-type-sass",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Backend of DueDilly",
+      url: "https://duedilly.co",
+      description:
+        "We built a backend for all the services of DueDilly." +
+        " Handled authentications, authorization, validations," +
+        " background jobs, stripe transfers, emails, etc",
+      languages: [
+        {
+          name: "ExpressJS",
+          iconifyClass: "simple-icons:express",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "AWS",
+          iconifyClass: "vscode-icons:file-type-aws",
+        },
+        {
+          name: "AWS S3",
+          iconifyClass: "logos:aws-s3",
+        },
+        {
+          name: "Postman",
+          iconifyClass: "logos:postman-icon",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "cib:cc-stripe",
+        },
+        // {
+        //   name: "Hapi",
+        //   iconifyClass: "logos:hapi",
+        // },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Newzjacker",
+      url: "https://newzjacker.com",
+      description:
+        "A platform where you can find trending top stories from around the global news network " +
+        "and find emails of journalists to contact them quickly." +
+        "I worked on both frontend and backend and handled everything from UI to stripe web hooks.",
+      languages: [
         {
           name: "ReactJS",
-          iconifyClass: "logos-react",
+          iconifyClass: "simple-icons:react",
         },
         {
-          name: "Django",
-          iconifyClass: "logos-django",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Event Scheduler",
-      url: "https://github.com/vvHacker007/Event-Scheduler",
-      description:
-        "It is an all-purpose scheduler software. It is designed to monitor all the activities and give appropriate reminders for them.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          name: "Material UI",
+          iconifyClass: "logos:material-ui",
         },
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "JWT",
+          iconifyClass: "logos:jwt-icon",
         },
         {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
         },
         {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Movie Reccomendation System",
-      url: "https://github.com/vvHacker007/Movie-Recommendation-Systems",
-      description:
-        "Made three python kernels explaining and implementing the three different types of movie recommender systems.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Stripe",
+          iconifyClass: "cib:cc-stripe",
         },
         {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "Login Authenticator",
-      url: "https://github.com/vvHacker007/Login-Authenticator",
-      description: "Made a template for a Login Authenticator using Flask ",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Calculator",
-      url: "https://github.com/vvHacker007/Calculator",
-      description:
-        "Made a GUI based Calculator. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
+          name: "Google",
+          iconifyClass: "logos:google-cloud",
         },
       ],
     },
     {
       id: "5",
-      name: "Notepad",
-      url: "https://github.com/vvHacker007/Notepad",
+      name: "Workzat",
+      url: "https://workzat.com",
       description:
-        "Made a GUI based Notepad. Also made an executable file for the project which can be downloaded and used by anyone on their personal computer.",
+        "Workzat is social platform like facebook but instead for general public," +
+        " its focuses on companies culture like LinkdIn" +
+        "I have worked with a team on thi project as a full stack web developer " +
+        "and helped the company to accomplish its goals.",
       languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Tetris",
-      url: "https://github.com/vvHacker007/Tetris",
-      description: "Made a GUI based arcade game Tetris using pygame.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Steganography",
-      url: "https://github.com/vvHacker007/Steganography",
-      description:
-        "A CLI tool to conceal messages within a file, text, image, or video.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "OpenCV",
-          iconifyClass: "logos-opencv",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Mini Paint",
-      url: "https://github.com/vvHacker007/Mini-Paint",
-      description: "GUI based Mini Paint Application.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Speedtest",
-      url: "https://github.com/vvHacker007/Speed-test",
-      description:
-        "An internet speed testing application which can notify about the download speed, upload speed, and also the reaction time of the connection.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "Cat Classifier",
-      url: "https://github.com/vvHacker007/Cat-Classifier",
-      description:
-        "Binary Cat Classifier made by hard coding Neural Networks in Python without using libraries such as Tensorflow or keras.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Snake",
-      url: "https://github.com/vvHacker007/Snake",
-      description:
-        "A snake game which covers all the basic features like score, high score and an automated speed increase simultaneously when the snake eats the food.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "Score Predictor",
-      url: "https://score-predictor-app.herokuapp.com/",
-      description:
-        "Predicts students score based on the number of hours the student puts in it.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "13",
-      name: "Blood Donation Predictor",
-      url: "https://blood-donation-predictor-app.herokuapp.com/",
-      description:
-        "Predicts if one is ready to donate blood based on the user's blood donation history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "14",
-      name: "Credit-Card Default Predictor",
-      url: "https://default-predictor-app.herokuapp.com/",
-      description:
-        "Predicts whether user's credit card would be defaulted or not based on the user's bank statements and history.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Jupyter Notebook",
-          iconifyClass: "logos-jupyter",
-        },
-      ],
-    },
-    {
-      id: "15",
-      name: "Portfolio Website",
-      url: "https://vvhacker007.github.io/Portfolio/",
-      description: "You are stalking it right now 😉",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
         {
           name: "ReactJS",
-          iconifyClass: "logos-react",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Material UI",
+          iconifyClass: "logos:material-ui",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos:nodejs",
+        },
+        {
+          name: "JWT",
+          iconifyClass: "logos:jwt-icon",
+        },
+        {
+          name: "MongoDB",
+          iconifyClass: "vscode-icons:file-type-mongo",
+        },
+        {
+          name: "Socket.io",
+          iconifyClass: "cib:socket-io",
         },
       ],
     },
