@@ -30,7 +30,7 @@ function Education(props) {
                 style={{ color: theme.secondaryText }}
               >
                 I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                activities. Below are some of my degrees.
               </p>
             </div>
           </div>

@@ -1,8 +1,7 @@
 {
   "private": true,
-  "name": "Personal Portfolio",
-  "version": "1.0.0",
   "homepage": "https://diodes.dev/",
+  "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",

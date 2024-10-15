@@ -24,7 +24,7 @@ const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/diode02/",
   linkedin: "https://www.linkedin.com/in/diode02/",
-  gmail: "qaskhan02@gmail.com",
+  gmail: "mwaqasilyas01@gmail.com",
   // gitlab: "https://gitlab.com/harikanani",
   facebook: "https://www.facebook.com/qaskhan02/",
   twitter: "https://twitter.com/diode02/",
@@ -378,16 +378,30 @@ const skills = {
 const degrees = {
   degrees: [
     {
+      title: "Univeristy of Eastern Finland",
+      subtitle:
+        "IMPIT - International Master's Programme in Information Technology",
+      logo_path: "UEF_eng_black.jpg",
+      alt_name: "UEF",
+      duration: "2023 - Preset",
+      descriptions: [
+        "⚡ I am currently studying in UEF for my Master's degree in Information Technology.",
+        "⚡ I am done with my course work and now working on my thesis.",
+        "⚡ I have studied subjects like Machine Learning, Deep learning, Data Science, etc.",
+      ],
+      website_link: "https://www.uef.fi/en/web/impit",
+    },
+    {
       title: "COMSATS University Islamabad",
       subtitle: "Bachelors of Sciences in Computer Science",
       logo_path: "COMSATS.jpg",
       alt_name: "COMSATS",
-      // duration: "2019 - 2023",
+      duration: "2017 - 2021",
       descriptions: [
         "⚡ I graduated with a bachelor's degree in Computer Sciences.",
         "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
         "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Science courses. ",
+        "⚡ I have implemented several projects based on what I've learnt under my Computer Science courses. ",
       ],
       website_link: "https://www.comsats.edu.pk/",
     },
@@ -515,22 +529,50 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
-  description:
-    "I've completed one internship. After that I worked as a Software Engineer in a comopany for 1 year and now I'm working as a Freelancer and actively handling different projects",
+  description: "Here are the experiences that I have gained over the years.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Software Engineer",
+          title: "Senior Software Engineer | Full Stack Web Developer",
+          company: "Beckett Collectibles",
+          company_url: "https://www.devsinc.com/",
+          logo_path: "beckett_collectibles_logo.jpeg",
+          // duration: "Sept 2020 - Oct 2020",
+          location: "USA - Remote",
+          description: `After Due Dilly's acquisition, I joined Beckett as a Senior Software Engineer, enhancing sports card processing through advanced technology. I collaborate with global teams, drive innovation, and mentor junior engineers throughout the software development lifecycle.`,
+          color: "#0071C5",
+        },
+        {
+          title: "Senior Software Engineer | Full Stack Web Developer",
+          company: "Due Dilly",
+          company_url: "https://www.devsinc.com/",
+          logo_path: "due_dilly_logo.jpeg",
+          // duration: "Sept 2020 - Oct 2020",
+          location: "USA - Remote",
+          description: `Led the development of core web applications, backend systems, and AI/ML-driven computer vision technology, driving innovation and scalability. Played a key role in the company's acquisition by Beckett, where I continue to deliver impactful software solutions.`,
+          color: "#0071C5",
+        },
+        {
+          title: "Assosiate Software Engineer",
           company: "Devsinc",
           company_url: "https://www.devsinc.com/",
           logo_path: "devsinc.png",
           // duration: "Sept 2020 - Oct 2020",
-          location: "office",
+          location: "Lahore, Pakistan",
           description: `I worked there as a Software Engineer on multiple company projects.`,
           color: "#0071C5",
+        },
+        {
+          title: "Full Stack Engineer (Intern)",
+          company: "Entspos Developers Inc. ",
+          location: "Lahore, Pakistan",
+          description:
+            "Developed a web application using ElectronJS for product tracking, collaborating with UI/UX teams to ensure user-centric designs with ReactJS. Led testing efforts to improve software reliability and performance.",
+          company_url: "https://developers.entspos.com/",
+          logo_path: "ENTSPOS_LOGO.png",
         },
       ],
     },
