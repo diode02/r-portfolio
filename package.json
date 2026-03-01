@@ -3,7 +3,7 @@
   "homepage": "https://diodes.dev/",
   "version": "1.0.0",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
     "deploy": "npm run build",
     "dev": "react-scripts start --openssl-legacy-provider",
