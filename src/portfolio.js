@@ -378,16 +378,17 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Univeristy of Eastern Finland",
+      title: "University of Eastern Finland",
       subtitle:
         "IMPIT - International Master's Programme in Information Technology",
       logo_path: "UEF_eng_black.jpg",
       alt_name: "UEF",
-      duration: "2023 - Preset",
+      duration: "2023 - 2025",
       descriptions: [
-        "⚡ I am currently studying in UEF for my Master's degree in Information Technology.",
-        "⚡ I am done with my course work and now working on my thesis.",
-        "⚡ I have studied subjects like Machine Learning, Deep learning, Data Science, etc.",
+        "⚡ Successfully completed Master's degree in Information Technology from Finland.",
+        "⚡ Completed a thesis project on wildfire prediction models using deep learning, aligning with my passion for climate change solutions.",
+        "⚡ Studied advanced subjects like Machine Learning, Deep Learning, Data Science, Computer Vision, and AI applications in environmental challenges.",
+        "⚡ Gained expertise in cutting-edge technologies for real-world problem solving and environmental sustainability.",
       ],
       website_link: "https://www.uef.fi/en/web/impit",
     },
