@@ -1045,6 +1045,58 @@ const projects = {
         },
       ],
     },
+    {
+      id: "10",
+      name: "Alt Vault",
+      url: "",
+      description:
+        "Revolutionary luxury marketplace platform combining traditional e-commerce with cutting-edge live auction technology for high-value watches and sneakers. " +
+        "Features AI-powered authenticity verification, real-time streaming commerce with LiveKit, sophisticated payment processing via Stripe, " +
+        "and comprehensive seller analytics dashboard. Built with enterprise-grade architecture using NestJS/NextJS, featuring live auction engines with WebSocket technology, " +
+        "multi-platform mobile support with FCM push notifications, and scalable cloud infrastructure with Docker containerization.",
+      languages: [
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+        {
+          name: "NestJS",
+          iconifyClass: "logos:nestjs",
+        },
+        {
+          name: "NextJS",
+          iconifyClass: "logos:nextjs-icon",
+        },
+        {
+          name: "Socket.io",
+          iconifyClass: "cib:socket-io",
+        },
+        {
+          name: "Stripe",
+          iconifyClass: "cib:cc-stripe",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "vscode-icons:file-type-firebase",
+        },
+        {
+          name: "Docker",
+          iconifyClass: "vscode-icons:file-type-docker2",
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "vscode-icons:file-type-pgsql",
+        },
+        {
+          name: "AI/ML",
+          iconifyClass: "carbon:machine-learning-model",
+        },
+        {
+          name: "AWS",
+          iconifyClass: "vscode-icons:file-type-aws",
+        },
+      ],
+    },
   ],
 };
 
