@@ -6,7 +6,7 @@
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
     "deploy": "npm run build",
-    "dev": "react-scripts start --openssl-legacy-provider",
+    "dev": "react-scripts --openssl-legacy-provider start",
     "eject": "react-scripts eject",
     "start": "serve -s build",
     "test": "react-scripts test"
