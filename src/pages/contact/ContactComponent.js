@@ -5,7 +5,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
-import { greeting, contactPageData } from "../../portfolio.js";
+import { contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
 
 const ContactData = contactPageData.contactSection;
