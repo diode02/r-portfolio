@@ -24,3 +24,5 @@
     margin: 20px;
   }
 }
+
+.accord-panel > summary { padding: 20px; cursor: pointer; font-size: 1.1rem; }

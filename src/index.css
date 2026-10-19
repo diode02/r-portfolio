@@ -1,78 +1,65 @@
 @font-face {
-  font-family: "Agustina Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assests/fonts/Agustina.woff") format("woff");
+  font-family: Portfolio Sans;
+  src: url("./assests/fonts/GoogleSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assests/fonts/Montserrat-Regular.ttf") format("woff");
+  font-family: Portfolio Sans;
+  src: url("./assests/fonts/GoogleSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
 }
 @font-face {
-  font-family: "Google Sans Bold";
-  src: local("Google Sans Bold"),
-    url("./assests/fonts/GoogleSans-Bold.ttf") format("woff");
+  font-family: Portfolio Sans;
+  src: url("./assests/fonts/GoogleSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
 }
-@font-face {
-  font-family: "Google Sans Bold Italic";
-  src: local("Google Sans Bold Italic"),
-    url("./assests/fonts/GoogleSans-BoldItalic.ttf") format("woff");
+* {
+  box-sizing: border-box;
 }
-@font-face {
-  font-family: "Google Sans Italic";
-  src: local("Google Sans Italic"),
-    url("./assests/fonts/GoogleSans-Italic.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Medium";
-  src: local("Google Sans Medium"),
-    url("./assests/fonts/GoogleSans-Medium.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Medium Italic";
-  src: local("Google Sans Medium Italic"),
-    url("./assests/fonts/GoogleSans-MediumItalic.ttf") format("woff");
-}
-@font-face {
-  font-family: "Google Sans Regular";
-  src: local("Google Sans Regular"),
-    url("./assests/fonts/GoogleSans-Regular.ttf") format("woff");
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-html,
-body {
+html {
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font-family:
+    Portfolio Sans,
+    Arial,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
-::-webkit-scrollbar-track {
-  background: #292a2d;
+button,
+input {
+  font: inherit;
 }
-::-webkit-scrollbar-thumb {
-  background: #e3405f;
-  border-radius: 5px;
+button,
+a {
+  touch-action: manipulation;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: #e3405f;
+a {
+  color: inherit;
 }
-/* Media Query */
-@media (max-width: 1380px) {
-  html,
-  body {
-    font-size: 16px;
-    line-height: normal;
+button {
+  cursor: pointer;
+}
+::selection {
+  background: #f26440;
+  color: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
   }
 }

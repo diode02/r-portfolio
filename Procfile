@@ -1,1 +1,1 @@
-web: npm start --openssl-legacy-provider
+web: npm start

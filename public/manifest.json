@@ -1,11 +1,15 @@
 {
-  "name": "App",
+  "name": "Muhammad Waqas \u2014 Senior Software Engineer",
+  "short_name": "MW Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f3ed",
+  "theme_color": "#f5f3ed",
   "icons": [
     {
-      "src": "/profile_photo.jpeg",
-      "sizes": "36x36",
-      "type": "image/png",
-      "density": "0.75"
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }
