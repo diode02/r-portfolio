@@ -536,13 +536,27 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Software Engineer",
+          company: "RB Global / Ritchie Bros.",
+          duration: "December 2024 – Present",
+          location: "Finland",
+          description:
+            "Building customer-facing products and backend services across auction checkout, digital payments, and logistics integrations.",
+          highlights: [
+            "Built and maintained checkout flows supporting digital payment collection for RB Auctions.",
+            "Designed and launched a shipping microservice, including REST APIs and data models, connecting logistics support and transport quotes to the customer journey.",
+            "Took on assigned technical lead responsibilities, contributing to architecture decisions, technical delivery, mentoring, and code reviews.",
+            "Improved shared TypeScript, ESLint, and pull-request practices, migrated automated testing to Vitest, and implemented observability dashboards.",
+          ],
+        },
+        {
           title: "Senior Software Engineer | Full Stack Web Developer",
           company: "Beckett Collectibles",
           company_url: "https://www.devsinc.com/",
           logo_path: "beckett_collectibles_logo.jpeg",
           // duration: "Sept 2020 - Oct 2020",
           location: "USA - Remote",
-          description: `After Due Dilly's acquisition, I joined Beckett as a Senior Software Engineer, enhancing sports card processing through advanced technology. I collaborate with global teams, drive innovation, and mentor junior engineers throughout the software development lifecycle.`,
+          description: `Following Due Dilly’s acquisition, I worked on applications supporting sports card receiving, grading, and shipping. I collaborated with international teams, contributed across the software development lifecycle, and mentored junior engineers.`,
           color: "#0071C5",
         },
         {
@@ -552,7 +566,7 @@ const experience = {
           logo_path: "due_dilly_logo.jpeg",
           // duration: "Sept 2020 - Oct 2020",
           location: "USA - Remote",
-          description: `Led the development of core web applications, backend systems, and AI/ML-driven computer vision technology, driving innovation and scalability. Played a key role in the company's acquisition by Beckett, where I continue to deliver impactful software solutions.`,
+          description: `Built marketplace applications and backend services, including AI/ML-powered computer vision integrations for sports card grading. Continued with Beckett Collectibles following its acquisition of Due Dilly.`,
           color: "#0071C5",
         },
         {

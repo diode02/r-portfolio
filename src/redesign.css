@@ -1591,3 +1591,71 @@
 .portfolio main:focus {
   outline: none;
 }
+
+.career-tenure {
+  font:
+    11px/1.6 ui-monospace,
+    SFMono-Regular,
+    Consolas,
+    monospace;
+  color: var(--muted);
+  margin-top: 12px !important;
+}
+.career-highlights {
+  padding-left: 18px;
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.85;
+}
+.career-highlights li + li {
+  margin-top: 12px;
+}
+.recognition {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 45px;
+  background: var(--soft);
+  padding: 35px 40px;
+  margin-top: 55px;
+  border-left: 3px solid var(--accent);
+}
+.recognition .eyebrow {
+  margin-bottom: 15px !important;
+}
+.recognition h2 {
+  font-size: 34px;
+}
+.recognition p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.recognition-company {
+  color: var(--ink) !important;
+  font-weight: 500;
+  margin-bottom: 8px !important;
+}
+.ai-practice {
+  border-top: 1px solid var(--line);
+}
+.ai-practice h3:first-child {
+  margin-top: 0;
+}
+.ai-practice h3 {
+  margin-bottom: 16px;
+}
+@media (max-width: 760px) {
+  .recognition {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 28px 23px;
+    margin-top: 35px;
+  }
+  .recognition h2 {
+    font-size: 30px;
+  }
+  .career-highlights {
+    font-size: 13px;
+  }
+}

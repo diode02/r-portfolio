@@ -10,7 +10,7 @@ npm run build
 npm run preview
 ```
 
-`npm start` serves the production `dist/` folder after building. Deploy the contents of `dist/` to the static host, never the source root. Hash routing preserves existing URLs without server rewrites. The custom domain marker for `diodes.dev` is copied from `public/CNAME`.
+`npm start` serves the production `dist/` folder after building. Deploy the contents of `dist/` to the static host, never the source root. Hash routing preserves existing URLs without server rewrites. The production site is https://waqasilyas.pages.dev/. Cloudflare Pages deploys the `master` branch with `npm run build`, output directory `dist`, and Node 24.
 
 GitHub Actions verifies changes and uploads `portfolio-dist`; it does not publish the site. Confirm the existing hosting provider and deployment branch before replacing the live site. Obsolete compiled files were removed: they contained an unrelated template profile. Build from the current source for deployment.
 

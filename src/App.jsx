@@ -33,16 +33,26 @@ const categories = (name) =>
       ? "Backend"
       : "Platforms";
 const projectDescriptions = {
-  "Due Dilly Marketplace": "A marketplace for buying and selling sports cards, with seller stores and integrated Stripe payments. I worked across the frontend and backend to connect the buying and selling experience.",
-  "Seller Dashboard Due Dilly": "A seller workspace for managing sports card listings, marketplace stores, and orders. Built to bring the operational side of the marketplace into one place.",
-  "Backend of DueDilly": "Backend services for the Due Dilly ecosystem, covering authentication, authorization, validation, background jobs, Stripe transfers, and email delivery.",
-  "Newzjacker": "A platform for discovering trending news and finding journalist contact information. I worked across the frontend and backend, including the interface and Stripe webhooks.",
-  "Workzat": "A social platform focused on company culture. I worked with the team as a full stack developer to build the product across its frontend and backend.",
-  "Pippa API Server": "An API service that retrieves users’ bank transaction details for auditing workflows, with authenticated access and backend integration.",
-  "Store Backend": "A backend for a marketplace store, covering user flows, product and category management, and manager roles, with MySQL as the database.",
-  "Printio": "A web service that receives instructions through an API, processes them, and controls a local printer to produce labels in the required format.",
-  "User Routines API": "A backend for managing user accounts and daily routines, supporting both public and private routines.",
-  "Foodlabs": "An integration built with serverless functions to retrieve job listings, process the data, and publish it to Webflow collections through its API.",
+  "Due Dilly Marketplace":
+    "A marketplace for buying and selling sports cards, with seller stores and integrated Stripe payments. I worked across the frontend and backend to connect the buying and selling experience.",
+  "Seller Dashboard Due Dilly":
+    "A seller workspace for managing sports card listings, marketplace stores, and orders. Built to bring the operational side of the marketplace into one place.",
+  "Backend of DueDilly":
+    "Backend services for the Due Dilly ecosystem, covering authentication, authorization, validation, background jobs, Stripe transfers, and email delivery.",
+  Newzjacker:
+    "A platform for discovering trending news and finding journalist contact information. I worked across the frontend and backend, including the interface and Stripe webhooks.",
+  Workzat:
+    "A social platform focused on company culture. I worked with the team as a full stack developer to build the product across its frontend and backend.",
+  "Pippa API Server":
+    "An API service that retrieves users’ bank transaction details for auditing workflows, with authenticated access and backend integration.",
+  "Store Backend":
+    "A backend for a marketplace store, covering user flows, product and category management, and manager roles, with MySQL as the database.",
+  Printio:
+    "A web service that receives instructions through an API, processes them, and controls a local printer to produce labels in the required format.",
+  "User Routines API":
+    "A backend for managing user accounts and daily routines, supporting both public and private routines.",
+  Foodlabs:
+    "An integration built with serverless functions to retrieve job listings, process the data, and publish it to Webflow collections through its API.",
 };
 const work = projects.data.map((p) => ({
   ...p,
@@ -74,7 +84,7 @@ function RouteEffects() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo?.({ top: 0, behavior: "instant" });
-    document.title = `${pathname === "/" || pathname === "/home" ? "Muhammad Waqas — Senior Software Engineer" : pathname.startsWith("/projects") ? "Selected Work — Muhammad Waqas" : `${pathname === "/education" ? "About" : pathname.slice(1)[0]?.toUpperCase() + pathname.slice(2)} — Muhammad Waqas`}`;
+    document.title = `${pathname === "/" || pathname === "/home" ? "Muhammad Waqas — Software Engineer" : pathname.startsWith("/projects") ? "Selected Work — Muhammad Waqas" : `${pathname === "/education" ? "About" : pathname.slice(1)[0]?.toUpperCase() + pathname.slice(2)} — Muhammad Waqas`}`;
     if (typeof window.gtag === "function" && settings.googleTrackingID)
       window.gtag("config", settings.googleTrackingID, {
         page_path: pathname,
@@ -347,7 +357,7 @@ function Home() {
     <>
       <section className="hero">
         <div className="hero-copy">
-          <Label>MUHAMMAD WAQAS / SENIOR SOFTWARE ENGINEER</Label>
+          <Label>MUHAMMAD WAQAS / SOFTWARE ENGINEER</Label>
           <h1>
             Good ideas.
             <br />
@@ -373,9 +383,9 @@ function Home() {
               <img src={portrait} alt="" />
             </span>
             <span>
-              Engineer by craft.
+              Software Engineer at RB Global.
               <br />
-              <strong>Product thinker by instinct.</strong>
+              <strong>Checkout, payments & integrations.</strong>
             </span>
           </div>
         </div>
@@ -476,9 +486,10 @@ function Home() {
             Practical by experience.
           </h2>
           <p>
-            I’m Muhammad Waqas, a senior software engineer working across web
-            products, backend systems, and applied AI. My work spans commerce
-            platforms, live experiences, and the infrastructure behind them.
+            I’m Muhammad Waqas, a software engineer at RB Global / Ritchie Bros.
+            My work includes auction checkout, digital payment collection, and
+            shipping integrations, alongside experience in marketplaces and
+            applied AI.
           </p>
           <p>
             Alongside product engineering, I completed my master’s in
@@ -625,13 +636,34 @@ function Experience() {
             <div>
               <h2>{job.company.trim()}</h2>
               <p className="career-location">{job.location}</p>
+              {job.duration && <p className="career-tenure">{job.duration}</p>}
             </div>
             <div>
               <h3>{job.title.replace("Assosiate", "Associate")}</h3>
               <p>{job.description}</p>
+              {job.highlights && (
+                <ul className="career-highlights">
+                  {job.highlights.map((highlight) => (
+                    <li key={highlight}>{highlight}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </article>
         ))}
+      </section>
+      <section className="recognition" aria-label="Professional recognition">
+        <div>
+          <Label>RECOGNITION / JANUARY 2026</Label>
+          <h2>Power of Performance.</h2>
+        </div>
+        <div>
+          <p className="recognition-company">RB Global / Ritchie Bros.</p>
+          <p>
+            Recognized by senior leadership for contributions to business impact
+            and customer satisfaction.
+          </p>
+        </div>
       </section>
       <section className="expertise section-space">
         <Label>WHERE I DO MY BEST WORK</Label>
@@ -696,20 +728,50 @@ function About() {
         </div>
         <div>
           <p className="detail-description">
-            I work across the full product lifecycle: planning the approach,
-            building interfaces and backend services, integrating the systems
-            around them, and getting it into production.
+            I’m a software engineer with seven years of experience across
+            technical design, full stack development, integrations, and
+            production support. At RB Global / Ritchie Bros., my work has
+            included checkout, digital payment collection for RB Auctions, and
+            shipping services.
           </p>
           <p>
-            My experience includes sports collectibles, luxury commerce,
-            marketplaces, and media platforms. I’ve also worked on AI and
-            computer vision applications, collaborated with global teams, and
-            mentored junior engineers.
+            Alongside hands-on delivery, I’ve taken on assigned technical lead
+            responsibilities: contributing to architecture decisions,
+            coordinating technical work, mentoring engineers, and improving
+            testing and code-review practices. Earlier, I built marketplace
+            applications and integrated computer vision for sports card grading
+            at Due Dilly and Beckett Collectibles.
           </p>
           <p>
             Outside commercial products, my master’s research explored wildfire
             prediction with deep learning—bringing my interest in AI together
             with environmental challenges.
+          </p>
+        </div>
+      </section>
+      <section className="detail-body ai-practice section-space">
+        <div>
+          <Label>AI IN PRACTICE</Label>
+          <h2>
+            Useful tools.
+            <br />
+            Considered engineering.
+          </h2>
+        </div>
+        <div>
+          <h3>Applied experience</h3>
+          <p>
+            My AI work includes integrating computer vision into production
+            products and researching wildfire prediction with deep learning. I
+            also use AI-assisted development tools, including GitHub Copilot CLI
+            and Kiro CLI, alongside technical design, automated testing, and
+            code review.
+          </p>
+          <h3>Exploring next</h3>
+          <p>
+            I’m interested in AI agents and Model Context Protocol (MCP),
+            especially how they can connect relevant context and tools to
+            practical engineering workflows.
           </p>
         </div>
       </section>
